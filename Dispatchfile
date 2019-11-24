@@ -1,6 +1,6 @@
 resource "gitops-git": {
   type: "git"
-  param url: "https://github.com/corbinpacheco/cicd-hello-world-gitops"
+  param url: "https://github.com/corbinpacheco/dispatch-demo"
 }
 
 task "deploy": {
